@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ticketock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://example.com/fontawesome/v6.1.2/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://kit.fontawesome.com/d093c2cab5.js" crossorigin="anonymous"></script>
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <script src="script.js"></script>
+
+
+    <!----------------------------------------navigation-bar--------------------------->
+
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <img src="rawimg/logo.png" class="logo">
+        <ul>
+            <li><a class="active" href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#"><button class="login_btn" id="loginBtn">Login</button></a></li>
+        </ul>
+    </nav>
+
+
+    <!------------------------------------------Slide-Show-------------------------------->
+
+
+    <div class="slideshowContainer">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="slideshow_images/slideimg1.png" alt=""></div>
+              <div class="swiper-slide"><img src="slideshow_images/slideimg2.png" alt=""></div>
+              <div class="swiper-slide"><img src="slideshow_images/slideimg3.png" alt=""></div>
+              <div class="swiper-slide"><img src="slideshow_images/slideimg4.png" alt=""></div>
+              <div class="swiper-slide"><img src="slideshow_images/slideimg5.png" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
+
+
+    <!-----------------------------------Search-Bar--------------------------------->
+
+
+    <div class="searchbar-container">
+        <div class="form-group">
+            <div class="dropdown">
+                <div class="default-option">All</div>
+            </div>
+            <div class="search">
+                <input type="text" class="search-input" placeholder="Search in All Categories">
+            </div>
+            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+
+    <!----------------------------------------------Content------------------------->
+    <div class="cards card1">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+    <div class="cards card2">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+    <div class="cards card3">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+    <div class="cards card4">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+    <div class="cards card5">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+    <div class="cards card6">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+    <div class="cards card7">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+    <div class="cards card8">
+        <a href="#">
+            <h5>Sample Title 1</h5>
+            <p>jiajwd ahnduahwudaw duadhuahwd auwhduahwud auhwduahwu daihjidjaw dijhadij</p>
+        </a>
+    </div>
+
+
+    <!--------------------------------------------Footer----------------------------->
+
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="rawimg/logo.png" class="logo">
+                <p>dadadadamkamdkamdkmakdmkamdk akdmkamdk ad akmkamdkmakd admkamdkjndjan 
+                    ndanidiniand aidnadniad adniaidniand andainiandia daniaind
+                </p>
+            </div>
+            <div class="col">
+                <h3>Adress<div class="underline"><span></span></div></h3>
+                <p>108/4,</p>
+                <p>Ganemulla Road,</p>
+                <p>Hapugoda,</p>
+                <p>Kandana.</p>
+                <p class="email-id"><a href="dilensivagurunathan123@gmail.com">contact.ticketock@gmail.com</a></p>
+                <h4>+94 123454565657</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <p class="col2"><a href="">Sample 1</a></p>
+                <p class="col2"><a href="">Sample 2</a></p>
+                <p class="col2"><a href="">Sample 3</a></p>
+                <p class="col2"><a href="">Sample 4</a></p>
+                <p class="col2"><a href="">Sample 5</a></p>
+                <p class="col2"><a href="">Sample 5</a></p>
+                <p class="col2"><a href="">Sample 5</a></p>
+            </div>
+            <div class="col">
+                <h3>NewsLetter <div class="underline"><span></span></div></h3>
+                <form class="footer-form">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ticketock.lk/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://youtube.com/channel/UCeAyYm9h3NqIdbrUqGjANYg"><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href=" https://www.instagram.com/invites/contact/?i=1dnt7a99dmn26&utm_content=p4m4voj"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Powerd by VibeHug Entertainment © 2022 - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
